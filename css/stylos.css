@@ -1,13 +1,151 @@
+/**#########################
+           LOGIN
+#########################**/
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(93, 118, 126, 0.4), rgba(115, 132, 163, 0.4)), url(img/portada.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 320px;
+    height: 430px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgb(226, 226, 226);
+}
+
+.button-box {
+    width: 244px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 134px;
+    height: 100%;
+    background: linear-gradient(to right, #1070ff, #63eb63);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons {
+    margin: 30px, auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #1070ff, #63eb63);
+    outline: none;
+    border-radius: 30px;
+}
+
+#login {
+    left: 22px;
+}
+
+#register {
+    left: 422px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #1db954; /*color botón*/
+    background-color: #00E676; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 30px; /*bordes redondos*/
+    border-radius: 20px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #07c24e;
+    border: 2px solid #00C853;
+}
+
+.botonschooltec01{
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: transparent; /*color botón*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 20px; /*bordes redondos*/
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #1c4172;
 }
 
 .imagendecursos{
@@ -35,7 +173,8 @@
 }
 
 .portadaindex{
-    background-color: rgb(53, 54, 58);
+    background-color: #235390;
+    
     
 }
 
@@ -2299,7 +2438,7 @@ a.custom-grey:hover {
 }
 
 .blue {
-    background-color: rgb(53, 54, 58);
+    background-color: #2196F3!important
 }
 
 .blue-hover:hover {
@@ -2352,7 +2491,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: rgb(53, 54, 58);
+    background-color: #1976D2!important
 }
 
 .blue-hover.darken-2-hover:hover {
@@ -6890,7 +7029,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #000000!important
 }
 
 .black-text-hover:hover {
@@ -6902,11 +7041,11 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: rgb(53, 54, 58);
+    background-color: #FFFFFF!important
 }
 
 .white-text {
-    color: rgb(172, 170, 170);
+    color: #FFFFFF!important
 }
 
 .white-text-hover:hover {
@@ -6918,7 +7057,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #242427!important
 }
 
 html {
@@ -7582,7 +7721,7 @@ th {
 }
 
 .collection .collection-item {
-    background-color: rgb(53, 54, 58);
+    background-color: #eee;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0px;
@@ -8450,7 +8589,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: rgb(172, 170, 170);
+    color: rgba(37, 35, 35, 0.87)
 }
 
 @media only screen and (min-width: 0) {
@@ -9139,7 +9278,7 @@ footer.page-footer .footer-copyright {
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: rgb(53, 54, 58);
+    background-color: #f3f5f4;
     will-change: left, right
 }
 
@@ -20745,7 +20884,7 @@ a.custom-grey:hover {
 }
 
 .blue {
-    background-color: rgb(53, 54, 58);
+    background-color: #2196F3 !important
 }
 
 .blue-hover:hover {
@@ -20798,7 +20937,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: rgb(53, 54, 58);
+    background-color: #235390 !important
 }
 
 
@@ -25088,7 +25227,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color:rgba(32,33,36,1);
+    background-color:#E9E9E9!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -25337,7 +25476,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #000000 !important
 }
 
 .black-text-hover:hover {
@@ -25349,11 +25488,11 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: rgb(53, 54, 58);
+    background-color: #fff !important
 }
 
 .white-text {
-    color: rgb(172, 170, 170);
+    color: rgb(173, 167, 167) !important
 }
 
 .white-text-hover:hover {
@@ -25365,7 +25504,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #757c86 !important
 }
 
 .login-section:not(.active) {
@@ -25467,10 +25606,11 @@ a.custom-grey:hover {
 }
 
 .verano-header {
-    background-image: url("img/portada.svg");
+    background-image: url("img/portada.png");
     background-size: cover;
     background-position: center;
-    height: 90vh
+    height: 90vh;
+    
     
 }
 
@@ -27156,7 +27296,7 @@ nav.fixed {
 .paragraph {
     line-height: 1.9;
     padding: 1em 0;
-    color: #E9E9E9;
+    color: #757c86;
     font-size: 16px;
     text-align: justify
 }
