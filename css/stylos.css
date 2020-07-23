@@ -1,11 +1,34 @@
 /**#########################
+           PORTADA
+#########################**/
+
+.portada__titulo {
+    position: center;
+    margin-top: 70px; 
+    color: #ffffff; 
+    font-weight: bold; 
+    font-size: 40px; 
+    font-family: 'Bitter', serif;
+}
+
+.portada__descripsion {
+    position: center;
+    margin-top: -15px; 
+    color: #ffffff; 
+    font-weight: bold; 
+    font-size: 32px; 
+    font-family: 'Bitter', serif;
+}
+
+
+/**#########################
            LOGIN
 #########################**/
 
 .hero {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(93, 118, 126, 0.4), rgba(115, 132, 163, 0.4)), url(img/portada.png);
+    background-image: linear-gradient(rgba(56, 64, 170, 0.4), rgba(43, 77, 141, 0.4)), url(img/portada.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -103,26 +126,9 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**#########################
+           BOTONES
+#########################**/
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
@@ -145,8 +151,13 @@
     border-radius: 20px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #1c4172;
+    border: 2px solid #93b9eb;
 }
+
+
+/**#########################
+           IMPORTANTE
+#########################**/
 
 .imagendecursos{
     height: 160px;
@@ -25191,7 +25202,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #43d9d3 !important
+    color: #509bf5 !important
 }
 
 .grey-text-hover.text-darken-2 {
