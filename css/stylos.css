@@ -13,10 +13,10 @@
 
 .portada__descripsion {
     position: center;
-    margin-top: -15px; 
-    color: #ffffff; 
+    margin-top: -20px; 
+    color: #e3e4e9; 
     font-weight: bold; 
-    font-size: 32px; 
+    font-size: 28px; 
     font-family: 'Bitter', serif;
 }
 
@@ -132,14 +132,14 @@
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #00E676; /*color botón*/
+    background-color: #5995fd; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
+    border-radius: 49px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #00C853;
+    border: none;
 }
 
 .botonschooltec01{
@@ -148,10 +148,22 @@
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
+    border-radius: 49px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #93b9eb;
+    border: 2px solid rgb(235, 234, 234);
+}
+
+.botonschooltec02{
+        padding: 15px; /*espacio alrededor texto*/
+        background-color: #46f5acd0; /*color botón*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 49px; /*bordes redondos*/
+        font-size: 15px;
+        color: #fff;
+        border: 2px solid rgb(235, 234, 234);
 }
 
 
@@ -184,8 +196,8 @@
 }
 
 .portadaindex{
-    background-color: #235390;
     
+    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
     
 }
 
@@ -20948,7 +20960,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #235390 !important
+    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
 }
 
 
