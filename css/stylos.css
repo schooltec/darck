@@ -39,7 +39,7 @@
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
    
-    background-image: linear-gradient(-45deg, #65fdc0 0%,  #81ff87 100%);
+    background-image: linear-gradient(-45deg, #65fd98 0%,  #aefac5 100%);
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -25416,7 +25416,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #afb2b6;
 }
 
 .login-section:not(.active) {
